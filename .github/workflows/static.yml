@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Omea – Breastfeeding Boost Drink</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fffaf8;
+      color: #333;
+    }
+    header {
+      background-color: #ffe6ec;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img.logo {
+      width: 120px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #a30047;
+      font-weight: 600;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #a30047;
+    }
+    .benefits, .ingredients {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .benefits div, .ingredients div {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+    .product-image {
+      display: block;
+      max-width: 300px;
+      margin: 2rem auto;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #ffe6ec;
+      padding: 2rem;
+      text-align: center;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #a30047;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./images/omea-logo.png" alt="Omea Logo" class="logo" />
+    <h1>Omea – Nourishment for Breastfeeding Mothers</h1>
+    <p>A lactation-support drink to boost milk supply, hydrate, and nourish – all in one sachet.</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="cta-button" href="#contact">Download Pitch Deck</a>
+  </header>
+
+  <img src="./images/omea-product.png" alt="Omea Product Drink" class="product-image" />
+
+  <section id="about">
+    <h2>About Omea</h2>
+    <p>Omea was born from a personal journey of motherhood. After facing challenges with breastfeeding, our founder developed a science-backed, convenient drink that empowers women to breastfeed with more ease, energy, and confidence.</p>
+    <p><strong>Vision:</strong> To support modern mothers through natural, effective, and easy-to-use breastfeeding nutrition.</p>
+    <p><strong>Problem:</strong> Many breastfeeding moms experience low milk supply, exhaustion, and dehydration.</p>
+    <p><strong>Solution:</strong> Omea offers a delicious, hydrating, and milk-boosting drink to support them—on the go.</p>
+  </section>
+
+  <section id="benefits">
+    <h2>Why Omea Works</h2>
+    <div class="benefits">
+      <div>✅ Boosts Milk Supply – With natural galactagogues like moringa and fenugreek</div>
+      <div>✅ Hydrates & Replenishes – Electrolytes from coconut water powder and pink salt</div>
+      <div>✅ Supports Gut Health – With ingredients gentle on digestion</div>
+      <div>✅ Low Sugar, Clean Formula – Naturally sweetened with monk fruit or honey</div>
+      <div>✅ On-the-Go Sachets – Just mix with water and sip</div>
+    </div>
+  </section>
+
+  <section id="ingredients">
+    <h2>Key Ingredients</h2>
+    <div class="ingredients">
+      <div><strong>Moringa</strong><br/>Rich in iron, supports lactation</div>
+      <div><strong>Fenugreek & Fennel</strong><br/>Traditional galactagogues</div>
+      <div><strong>Coconut Water Powder</strong><br/>Electrolytes for hydration</div>
+      <div><strong>Brewer’s Yeast</strong><br/>B-vitamins for energy</div>
+      <div><strong>Natural Sweeteners</strong><br/>Monk fruit, honey, or stevia</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p>Want to learn more about Omea or request a sample?</p>
+    <p><strong>Email:</strong> hello@omeadrink.com</p>
+    <p><strong>Instagram:</strong> @omeadrink | <strong>LinkedIn:</strong> Omea</p>
+    <a class="cta-button" href="#">Download Our Deck</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Omea. All rights reserved.</p>
+  </footer>
+</body>
+</html>
